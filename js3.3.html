@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>onkeyup</title>
+</head>
+<body>
+<h1 id="heading"></h1>
+<input id="inputbox" type="text" onkeyup="displaytext()" />
+<script type="text/javascript">
+function displaytext(){
+ var inputbox = document.getElementById('inputbox");
+ var elem = document.getElementById("heading");
+elem.innerHTML = inputbox.value;
+}
+</script>
+</body>
+</html>
